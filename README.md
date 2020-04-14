@@ -8,7 +8,7 @@ This project analyzes the interactions that users have with articles on the IBM 
 
 ## Getting Started
 
-The entire project runs on a Jupyter notebook and has the test incorporated.
+The entire project run on a Jupyter notebook and has the test incorporated.
 
 
 ## Prerequisites
@@ -25,8 +25,8 @@ The following packages needs to be installed:
 
 ## Files in the repository
 
-- data<br>
-    | - articles_community.csv : csv of all articles in the community<br>
+- data
+    | - articles_community.csv : csv of all articles in the community
     | - user-item-interactions.csv : csv of user-article interractions
     
 - Recommendations_with_IBM.html : html version of jupyter notebook
@@ -66,17 +66,17 @@ Two methods were explored here:
 - In the second method, users were also ranked by total number of interactions, as were articles. In the case of a tie, this rankings was used to break the tie
 
 #### Matrix Factorization:
-Here, matrices were built off the dataframe and SVD was used to make recommendations. We made use of numpy's built in SVD package because out matrix has no "NA". All "NA"s were replaced with "0"<br>
-Sum of error was used to determine accuracy and we ran into an overfitting problem where the model performed well on the train set, but not as good on the test set<br>
+Here, matrices were built off the dataframe and SVD was used to make recommendations. We made use of numpy's built in SVD package because out matrix has no "NA". All "NA"s were replaced with "0"..
+Sum of error was used to determine accuracy and we ran into an overfitting problem where the model performed well on the train set, but not as good on the test set..
 There was also a problem of not enough common dataset between the train set and test set, (the cold start problem) therfore limiting the number of users we could predict for
 
 
-### Authors
+## Authors
 
-Udacity - Code template and tests<br>
+Udacity - Code template and test
 Laura Egharevba - Everything else
 
 
-### Acknowledgements
+## Acknowledgements
 
 IBM for supplying the dataset
