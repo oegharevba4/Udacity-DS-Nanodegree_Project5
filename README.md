@@ -71,12 +71,12 @@ Sum of error was used to determine accuracy and we ran into an overfitting probl
 There was also a problem of not enough common dataset between the train set and test set, (the cold start problem) therfore limiting the number of users we could predict for
 
 
-### Authors
+## Authors
 
 Udacity - Code template and tests<br>
 Laura Egharevba - Everything else
 
 
-### Acknowledgements
+## Acknowledgements
 
 IBM for supplying the dataset
